@@ -1,0 +1,1266 @@
+{
+    "name": "Comunidade GTA Raiz",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "ALL_MESSAGES",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Sala Mista",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "SALA GERAL",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Sala Mista",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "PRIVADO",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Sala Mista",
+                        "permissions": [
+                            {
+                                "roleName": "Comissários",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "GTA Raiz",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Gravação/Live",
+                        "bitrate": 96000,
+                        "userLimit": 0,
+                        "parent": "Sala Mista",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Comissários",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "GTA Raiz",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Club GTA Raiz",
+                        "bitrate": 96000,
+                        "userLimit": 0,
+                        "parent": "Sala Mista",
+                        "permissions": [
+                            {
+                                "roleName": "Club GTA Raiz",
+                                "allow": "3146752",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comissários",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "GTA Raiz",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Encontros Raiz",
+                "permissions": [
+                    {
+                        "roleName": "Capangas",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "1048576"
+                    },
+                    {
+                        "roleName": "Comissários",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Bate-Papo Encontro",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Encontros Raiz",
+                        "permissions": [
+                            {
+                                "roleName": "Capangas",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comissários",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "chat-encontro",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Encontros Raiz",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "Capangas",
+                                "allow": "1051648",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comissários",
+                                "allow": "1051648",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "XBOX (ANTIGO)",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "𝐂𝐇𝐀𝐓",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "XBOX (ANTIGO)",
+                        "topic": "Plataforma: Xbox One, Xbox Series e Cloud Gaming (Xbox One Version)",
+                        "permissions": [
+                            {
+                                "roleName": "Comissários",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "GTA Raiz",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "CLOUD GAMING",
+                                "allow": "2048",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Bate-Papo",
+                        "bitrate": 64000,
+                        "userLimit": 32,
+                        "parent": "XBOX (ANTIGO)",
+                        "permissions": [
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX 360",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "CLOUD GAMING",
+                                "allow": "3145728",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Bate-Papo 02",
+                        "bitrate": 64000,
+                        "userLimit": 32,
+                        "parent": "XBOX (ANTIGO)",
+                        "permissions": [
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Club GTA Raiz",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "CLOUD GAMING",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Capangas",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "YouTube Member",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comissários",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Server Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "PLAYSTATION (ANTIGO)",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "𝐂𝐇𝐀𝐓",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "PLAYSTATION (ANTIGO)",
+                        "topic": "Plataforma: PS4 e PS5",
+                        "permissions": [
+                            {
+                                "roleName": "Comissários",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "PLAYSTATION 5",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "GTA Raiz",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "PLAYSTATION 4",
+                                "allow": "2048",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Bate-Papo",
+                        "bitrate": 64000,
+                        "userLimit": 32,
+                        "parent": "PLAYSTATION (ANTIGO)",
+                        "permissions": [
+                            {
+                                "roleName": "XBOX 360",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Comissários",
+                                "allow": "1048576",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "GTA Raiz",
+                                "allow": "1048576",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "PLAYSTATION 4",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "PLAYSTATION 5",
+                                "allow": "3145728",
+                                "deny": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "COMPUTADOR",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Bate-Papo",
+                        "bitrate": 64000,
+                        "userLimit": 32,
+                        "parent": "COMPUTADOR",
+                        "permissions": [
+                            {
+                                "roleName": "PC GAMER",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Zira",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX 360",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "GTA Raiz",
+                                "allow": "1048576",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comissários",
+                                "allow": "1048576",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Server Booster",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "𝐂𝐇𝐀𝐓",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "COMPUTADOR",
+                        "topic": "Plataforma: PC",
+                        "permissions": [
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Zira",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comissários",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "GTA Raiz",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "PC GAMER",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Server Booster",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "XBOX (OTIMIZADO)",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "𝐂𝐇𝐀𝐓",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "XBOX (OTIMIZADO)",
+                        "topic": "Plataforma: Xbox Series S/X e Cloud Gaming (Xbox Series S/X Version)",
+                        "permissions": [
+                            {
+                                "roleName": "GTA Raiz",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "CLOUD GAMING",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX 360",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Comissários",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "2048",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Bate-Papo 01",
+                        "bitrate": 64000,
+                        "userLimit": 32,
+                        "parent": "XBOX (OTIMIZADO)",
+                        "permissions": [
+                            {
+                                "roleName": "CLOUD GAMING",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Jockie Music",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX 360",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Rythm",
+                                "allow": "3145728",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Bate-Papo 02",
+                        "bitrate": 64000,
+                        "userLimit": 32,
+                        "parent": "XBOX (OTIMIZADO)",
+                        "permissions": [
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX 360",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "CLOUD GAMING",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "3145728",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Bate-Papo 03",
+                        "bitrate": 64000,
+                        "userLimit": 32,
+                        "parent": "XBOX (OTIMIZADO)",
+                        "permissions": [
+                            {
+                                "roleName": "XBOX 360",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "CLOUD GAMING",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Bate-Papo 04",
+                        "bitrate": 64000,
+                        "userLimit": 32,
+                        "parent": "XBOX (OTIMIZADO)",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "CLOUD GAMING",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX 360",
+                                "allow": "0",
+                                "deny": "1048576"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "PLAYSTATION (OTIMIZADO)",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "𝐂𝐇𝐀𝐓",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "PLAYSTATION (OTIMIZADO)",
+                        "topic": "Plataforma: Playstation 5",
+                        "permissions": [
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "PLAYSTATION 5",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Server Booster",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "GTA Raiz",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Comissários",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "PLAYSTATION 3",
+                                "allow": "70656",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Zira",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Bate-Papo",
+                        "bitrate": 64000,
+                        "userLimit": 32,
+                        "parent": "PLAYSTATION (OTIMIZADO)",
+                        "permissions": [
+                            {
+                                "roleName": "GTA Raiz",
+                                "allow": "1048576",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "PLAYSTATION 3",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Comissários",
+                                "allow": "1048576",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX 360",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "0",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "PLAYSTATION 5",
+                                "allow": "1048576",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "PLAYSTATION 4",
+                                "allow": "0",
+                                "deny": "1048576"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "GTA RETRO (PS3 e X360)",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Bate-Papo",
+                        "bitrate": 64000,
+                        "userLimit": 16,
+                        "parent": "GTA RETRO (PS3 e X360)",
+                        "permissions": [
+                            {
+                                "roleName": "XBOX 360",
+                                "allow": "1048576",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "3145728",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "𝐂𝐇𝐀𝐓",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "GTA RETRO (PS3 e X360)",
+                        "topic": "GTA ONLINE NAS GERAÇÕES RETRO",
+                        "permissions": [
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Comissários",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "PLAYSTATION 3",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX 360",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "GTA Raiz",
+                                "allow": "2048",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Bate-Papo 02",
+                        "bitrate": 64000,
+                        "userLimit": 16,
+                        "parent": "GTA RETRO (PS3 e X360)",
+                        "permissions": [
+                            {
+                                "roleName": "XBOX ONE",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "XBOX 360",
+                                "allow": "1048576",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "XBOX SERIES",
+                                "allow": "3145728",
+                                "deny": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_TEXT",
+                "name": "off",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "GTA Raiz",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Zira",
+                        "allow": "805829713",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Comissários",
+                        "allow": "1024",
+                        "deny": "0"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "𝐑𝐄𝐆𝐑𝐀𝐒",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "2048"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "𝐍𝐎𝐓𝐈𝐂𝐈𝐀𝐒",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "2048"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "𝐃𝐔𝐕𝐈𝐃𝐀𝐒",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": "SALA DESTINADA A DUVIDAS FREQUENTES QUE RESPONDEM SUAS PERGUNTAS.",
+                "permissions": [
+                    {
+                        "roleName": "GTA Raiz",
+                        "allow": "2048",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "2048"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "𝐃𝐈𝐂𝐀𝐒",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "2048"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "𝐂𝐎𝐍𝐒𝐎𝐋𝐄",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "377957173248"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "𝐂𝐇𝐀𝐓-𝐆𝐄𝐑𝐀𝐋",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "3072",
+                        "deny": "0"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "𝐌𝐄𝐌𝐄𝐒",
+                "nsfw": false,
+                "rateLimitPerUser": 60,
+                "parent": null,
+                "topic": "APENAS MEMES",
+                "permissions": [],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "𝐆𝐀𝐋𝐄𝐑𝐈𝐀",
+                "nsfw": false,
+                "rateLimitPerUser": 10,
+                "parent": null,
+                "topic": "Mande aki o seu print/video de jogatina com a comunidade.",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "67584",
+                        "deny": "0"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "🎬clipes",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": "MANDE SEU CLIPE DE MITAGEM, CAGADA OU MOMENTO ENGRAÇADO PARA APARECER NO CANAL!",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "67584",
+                        "deny": "0"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "musica",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "GTA Raiz",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "32985348308991",
+            "mentionable": true,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "Comissários",
+            "color": "#ff9518",
+            "hoist": true,
+            "permissions": "1106221985607",
+            "mentionable": true,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "Capangas",
+            "color": "#ff00fa",
+            "hoist": true,
+            "permissions": "6693572167",
+            "mentionable": true,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "XBOX SERIES",
+            "color": "#a8ffbd",
+            "hoist": true,
+            "permissions": "6546771521",
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "PLAYSTATION 5",
+            "color": "#81d8ff",
+            "hoist": true,
+            "permissions": "6546771521",
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "XBOX ONE",
+            "color": "#01af00",
+            "hoist": true,
+            "permissions": "6546771521",
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "PLAYSTATION 4",
+            "color": "#009ec9",
+            "hoist": true,
+            "permissions": "6546771521",
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "PC GAMER",
+            "color": "#fbff00",
+            "hoist": true,
+            "permissions": "6546771521",
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "CLOUD GAMING",
+            "color": "#97b66e",
+            "hoist": false,
+            "permissions": "2251804225",
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "XBOX 360",
+            "color": "#76ff44",
+            "hoist": true,
+            "permissions": "6546771521",
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "PLAYSTATION 3",
+            "color": "#888dff",
+            "hoist": true,
+            "permissions": "6546771521",
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "533235326373441",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1700438393042,
+    "guildID": "787663481968525312",
+    "id": "1175948594688163840",
+    "iconURL": "https://cdn.discordapp.com/icons/787663481968525312/9172c9b6c5ae03b64830be21ae09d94c.webp"
+}
